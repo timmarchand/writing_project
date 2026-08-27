@@ -1,0 +1,5 @@
+# Preface {.unnumbered}
+
+Working abstract goes here. This file (`index.qmd`) is the first item in
+`book: chapters:`, so most Quarto book formats treat it as the book's
+front matter / abstract page.

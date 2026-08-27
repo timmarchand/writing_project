@@ -1,0 +1,8 @@
+# Introduction
+
+<!--
+Typically covers:
+- Background and motivation
+- Research questions / objectives
+- Thesis structure / roadmap
+-->

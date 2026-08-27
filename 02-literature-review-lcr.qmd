@@ -1,0 +1,18 @@
+# Methodology
+
+```{r}
+#| label: setup
+#| include: false
+#| eval: false
+
+library(tidyverse)
+# library(dtagger)
+# library(fixest)
+```
+
+<!--
+Corpus description, MDA tagging pipeline (dtagger), and PPML modelling
+(fixest::feglm()) go here. R chunks in this and later chapters are
+executed when you render the book, and results are cached per the
+`execute: freeze: auto` setting in _quarto.yml.
+-->
