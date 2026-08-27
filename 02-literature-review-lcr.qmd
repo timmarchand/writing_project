@@ -1,18 +1,228 @@
-# Methodology
+# Chapter 2
 
-```{r}
-#| label: setup
-#| include: false
-#| eval: false
+## 1. Introduction: The learner dimension of the ONC problem
 
-library(tidyverse)
-# library(dtagger)
-# library(fixest)
-```
+### 1.1 From Chapter 1 to the learner corpus
+* ONC established as an evaluative written register [@BiberConrad2009; @BiberEgbert2018; @EhretTaboada2021]
+* Reference corpus benchmark from BBC *Have Your Say*
+* Learner data focus: six cohorts of Japanese university EFL students
+* Quantitative divergence in well-formed learner language [@Granger1998chapter; @Granger2003]
+* Gap at the intersection of learner language, stance, phraseology, and informal online evaluation
 
-<!--
-Corpus description, MDA tagging pipeline (dtagger), and PPML modelling
-(fixest::feglm()) go here. R chunks in this and later chapters are
-executed when you render the book, and results are cached per the
-`execute: freeze: auto` setting in _quarto.yml.
--->
+### 1.2 Why learner-native comparison is not straightforward
+* Confounding variables: L1, proficiency, task, register, topic, and instruction [@Granger1996; @Carlsen2012; @AlexopoulouEtAl2017; @LarssonPaquotBiber2021]
+* Hypothetical frequency gap: alternative readings (proficiency, register drift, transfer) [@ChenBaker2016; @HylandMilton1997; @GilquinPaquot2008]
+* Research design as the mechanism to isolate competing explanations [@ConnorMoreno2005]
+* Reference corpus as a register benchmark rather than a matched experimental control
+
+### 1.3 The argument of the chapter
+* Value of systematic CIA comparisons [@Granger1996; @Granger2003; @Granger2015]
+* Reference populations and control of variation [@ConnorMoreno2005; @Gilquin2022; @Granger2015]
+* Register sensitivity in learner production [@Biber1988; @BiberConrad2009; @LarssonPaquotBiber2021]
+* Academic bias in existing L2 stance and phraseology research [@ChenBaker2010; @ChenBaker2016; @HylandMilton1997; @AdelErman2012; @GrangerEtAl2009; @Ishikawa2013; @Tono2007]
+* Central thesis: register as a necessary condition for interpreting learner-native differences
+
+## 2. Learner Corpus Research and Comparative Logic
+
+### 2.1 The emergence of Learner Corpus Research
+* Limitations of pre-corpus methods: introspection, small datasets, and EA [@Corder1967; @Granger2003]
+* Error Analysis limitations: structural blindness to avoidance, overuse, and underuse [@Schachter1974; @DulayBurt1974; @Granger1998chapter; @Granger2002]
+* Emergence of LCR and ICLE [@Granger1993; @Granger1994; @Granger1998book; @GrangerRayson1998; @Ringbom1998; @Lorenz1999; @GrangerGilquinMeunier2013; @CalliesPaquot2015; @Granger2024; @Nesselhauf2004]
+* Distinction among EA, corpus-based SLA, and CIA [@DagneauxDennessGranger1998; @Myles2015; @TracyVenturaPaquotMyles2021]
+
+### 2.2 Contrastive Interlanguage Analysis
+* Foundations of CIA: NL vs. IL and IL vs. IL [@Granger1996; @Granger2003; @Granger2024]
+* Overuse and underuse of well-formed structures [@Granger1998chapter; @Schachter1974; @GrangerTyson1996; @Lorenz1999]
+* Controlling external variables to compare "like with like" [@Granger2002]
+
+#### 2.2.1 CIA and the logic of Chapter 1
+* Parallels between register analysis and CIA comparative designs [@BiberConrad2009]
+* Situational variation vs. learner-status variation
+* Methodological risk of confounding register mismatch with learner status
+
+### 2.3 Interpreting learner-native differences
+
+#### 2.3.1 The native corpus as reference population, not an idealised target
+* Shift from deficit views to CIA² and multiple reference varieties [@Granger2015; @Gilquin2022]
+* Native reference corpora as population samples rather than prescriptive ideals [@Granger1998book]
+
+#### 2.3.2 The comparative fallacy
+* Critique of target-relative constructs obscuring interlanguage logic [@BleyVroman1983]
+* Target benchmarks as discovery procedures vs. prescriptive norms [@LakshmananSelinker2001; @Lardiere2003; @Granger2015; @Cook1999]
+
+#### 2.3.3 Implication for this study
+* BBC *Have Your Say* as a descriptive reference benchmark
+* Reporting divergences as register-sensitive performance rather than deficit
+
+### 2.4 Learner corpus design and comparability
+* L1 composition: isolating single-L1 groups vs. multi-L1 designs [@Granger1993; @Granger2003; @Tono2007; @Ishikawa2013; @Ishikawa2025]
+* Proficiency operationalisation: institutional status vs. standardized testing [@GrangerEtAl2009; @Thomas1994; @Thomas2006; @Carlsen2012; @Ishikawa2013; @Ishikawa2018]
+* Task constraints and elicitation conditions [@AlexopoulouEtAl2017; @GrangerEtAl2009; @Tono2007]
+* Analytical distinction among task, genre, and register [@BiberConrad2009]
+* Comparability principle and *tertium comparationis* [@ConnorMoreno2005; @Moreno2008; @Gilquin2015; @GablasovaBrezinaMcEnery2017]
+
+### 2.5 From ICLE and LOCNESS to ICNALE
+
+#### 2.5.1 ICLE and the learner-essay tradition
+* Architecture, scope, and international influence of ICLE [@Granger1993; @GrangerEtAl2009; @GrangerEtAl2020; @Granger2003; @GrangerGilquinMeunier2013]
+* Constraints: adult, advanced, academic argumentative essays [@Granger2024]
+
+#### 2.5.2 LOCNESS as native reference
+* Component structure and novice-writer student baseline [@GrangerEtAl2009; @Granger1998book]
+* Precedent for non-prescriptive, genre-matched comparisons
+
+#### 2.5.3 Why ICNALE was developed
+* Tight control over writing conditions, prompts, and time limits [@Ishikawa2011; @Ishikawa2013; @Ishikawa2018; @Ishikawa2019; @Ishikawa2023]
+* Prior precedents in single-L1 control [@Tono2007]
+
+#### 2.5.4 ICNALE as methodological precedent
+* Shifting from fixed-task control to register-matched control
+* Examining the transferability of essay-based findings to online registers [@BiberConrad2009]
+
+## 3. Register as a Necessary Variable in Learner Corpus Research
+
+### 3.1 Learner language varies by register and task
+* Systematicity of situational language variation [@Biber1988; @Biber1995]
+* Framework of register, genre, and style [@BiberConrad2009]
+* Methodological and pedagogical need for register-differentiated data [@Granger1996; @BiberReppen2002]
+
+### 3.2 Multidimensional analysis and learner writing: four questions
+* Question 1 (L1-L2 differences): speech-like learner writing vs. exam register divergence [@vanRooy2008; @vanRooyTerblanche2009; @Biber1988; @FriginalWeigle2014; @WeigleFriginal2015]
+* Question 2 (Proficiency interactions): phrasal vs. clausal complexity clines [@BiberGrayPoonpon2011; @StaplesEtAl2016; @BiberEtAl2020longitudinal; @Romer2019; @RomerBerger2019; @RomerGarner2019; @BiberGrayStaples2016; @BiberEtAl2020complexity]
+* Question 3 (Task and genre effects): situational variables outweighing writer background [@HardyRomer2013; @GardnerNesiBiber2019; @AlexopoulouEtAl2017; @QinUccelli2016; @YoonPolio2016; @StaplesReppen2016; @StaplesBiberReppen2018]
+* Question 4 (Register vs. L1 attribution): register dominating over language background [@Goulart2021; @GoulartDixon2025; @StaplesEtAl2023; @LarssonPaquotBiber2021; @Biber1995]
+
+### 3.3 Register as a source of learner-native variation: Larsson, Paquot and Biber (2021)
+* Cross-corpus design (ICLE, VESPA, LOCNESS, BAWE, MICUSP, LOCRA) across five L1s [@LarssonPaquotBiber2021]
+* Register effects dominating over writer status and L1 background
+* Danger of misattributing essay-register characteristics to learner interlanguage [@StaplesBiberReppen2018; @GardnerNesiBiber2019]
+
+### 3.4 Register development and register awareness
+* Development as contextual differentiation rather than target convergence
+* Partial register flexibility in L2 writing [@QinUccelli2020; @LarssonKaatari2020; @LarssonKaatari2019; @LarssonEtAl2023; @DixonEtAl2023]
+* Leakage of conversational features and stance modulation across registers [@GilquinPaquot2008; @Larsson2019; @BiberGrayPoonpon2011; @StaplesEtAl2016; @BiberEtAl2020longitudinal]
+
+### 3.5 The academic-register bias of learner corpus research
+* Narrow sampling base focused on timed argumentative essays [@Gilquin2015; @GilquinGrangerPaquot2007; @Biber2006]
+* Expansion into disciplinary writing (VESPA) while remaining in academia [@PaquotEtAl2022; @LarssonPaquotBiber2021]
+* Contrast with the hybrid, informal, public parameters of ONC [@EhretTaboada2021; @BiberEgbert2018]
+
+### 3.6 Beyond academic writing: online and informal L2 discourse
+* Scarcity of L2 studies in informal digital registers
+* Precedents in learner email pragmatics and complexity [@MaizArevaloMendezGarcia2023; @MendezGarciaMaizArevalo2024; @LasoMartinDiezBedmar2025]
+* Gap in L2 research on blogs, social media, and online news comments [@FriginalWaughTitak2018; @EhretTaboada2021; @LarssonEtAl2023]
+
+### 3.7 Synthesis: register as a necessary variable
+* Summary of register as a primary determinant of learner variation [@AlexopoulouEtAl2017; @StaplesReppen2016; @GardnerNesiBiber2019; @LarssonPaquotBiber2021; @GilquinPaquot2008; @Gilquin2015]
+* Situational sensitivity of stance marking [@Biber1988; @BiberConrad2009; @Larsson2019]
+
+## 4. Stance and Phraseological Realisation in L2 Writing
+
+### 4.1 Stance in L2 writing: from concept to empirical question
+* Theoretical foundation: stance and engagement model [@Hyland2005; @Hyland1994; @Hyland1998; @HylandTse2004]
+* Learner-native differences located in calibration rather than raw quantity [@HylandMilton1997; @Adel2006; @BaxNakatsuharaWaller2019]
+
+### 4.2 Epistemic stance: hedging and boosting
+* Pedagogical importance of hedging in academic discourse [@Hyland1994; @Hyland1998]
+* Restricted epistemic range and miscalibrated certainty in L2 writing [@HylandMilton1997]
+* Vagueness, intensifiers, and modal obligations vs. conventional hedges [@Hinkel1997; @Hinkel2002; @Hinkel2005]
+* Simultaneous overuse and under-differentiation of metadiscourse [@Adel2006; @BaxNakatsuharaWaller2019; @LeeDeakin2016]
+
+### 4.3 The development of stance
+* Maturation as delimiting assertions against alternative viewpoints [@AullLancaster2014]
+* Longitudinal shifts toward disciplined epistemic expression [@CrosthwaiteJiang2017; @BaxNakatsuharaWaller2019; @LeeDeakin2016]
+
+### 4.4 Stance and register
+* Academic conventions of cautious qualification [@Hyland1998; @Hyland2005]
+* ONC affordances: direct evaluation, assertion, and general readership orientation
+* Malleability of L2 epistemic stance across spoken and task settings [@GablasovaEtAl2017stance; @GablasovaEtAl2024; @HylandMilton1997; @Hinkel1997; @Hinkel2005; @LeeDeakin2016]
+
+### 4.5 Stance as phraseological patterning
+* Lexical bundles as pervasive building blocks of register [@BiberEtAl1999; @Wray2002; @SiyanovaChanturiaPellicerSanchez2019]
+* Functional taxonomy: stance, discourse organizing, referential [@BiberConradCortes2004]
+* Register and disciplinary conditioning of bundle inventories [@BiberBarbieri2007; @Hyland2008; @SimpsonVlachEllis2010]
+
+### 4.6 Learner-native differences in lexical bundles
+* Phraseological reflex of restricted epistemic range in L2 writing [@ChenBaker2010]
+* Fewer hedging bundles coexisting with overgeneralized formulae [@AdelErman2012]
+* Clausal vs. phrasal bundle preferences in learner stance marking [@BychkovskaLee2017]
+
+### 4.7 Proficiency and phraseological development
+* Structural shift from verb-heavy conversational bundles to phrasal academic bundles across CEFR levels [@ChenBaker2016]
+* Bundle overuse, prompt copying, and collocation strength across proficiency [@StaplesEtAl2013; @GrangerBestgen2014; @Paquot2019; @Nekrasova2009]
+
+### 4.8 What existing L2 stance and phraseology research does not tell us
+* Summary of established L2 stance and bundle findings [@HylandMilton1997; @Hinkel2005; @Adel2006; @BaxNakatsuharaWaller2019; @AullLancaster2014; @CrosthwaiteJiang2017; @ChenBaker2010; @AdelErman2012; @BychkovskaLee2017; @ChenBaker2016; @BiberBarbieri2007; @Hyland2008]
+* Empirical gap: lack of L2 bundle and stance studies in informal online written registers [@GablasovaEtAl2017stance; @GablasovaEtAl2024; @BiberEtAl1999; @GrieveEtAl2010; @BiberEgbert2016]
+
+## 5. Japanese learners and sources of variation
+
+### 5.1 Japanese learners in learner corpus research: a well-studied population
+* Breadth of Japanese learner corpus resources [@GrangerEtAl2009; @Kaneko2007; @NaritaSatoSugiura2004; @Tono2007; @Ishikawa2013; @Ishikawa2023; @IzumiEtAl2004; @Miki2010]
+* Research gap located in register coverage rather than data volume
+
+### 5.2 Japanese learner proficiency and corpus research
+* Operationalising proficiency in Japanese corpora [@Ishikawa2013; @Tono2007; @IzumiEtAl2004]
+* Morpheme acquisition orders and non-linear epistemic stance expansion [@Tono2000; @Suzuki2024]
+* Attenuation of *I think* overuse and active vocabulary gaps across bands [@Miki2010; @Ishikawa2021]
+
+### 5.3 L1 influence and contrastive rhetoric
+* Traditional contrastive rhetoric: culture-specific logic and reader-responsibility [@Kaplan1966; @Connor1996; @Hinds1987; @Connor2002]
+* Critiques of cultural essentialism and documentation of diverse Japanese rhetorical patterns [@Kubota1997; @Kubota1999; @KubotaLehner2004; @Atkinson2004; @Leki1991; @Kubota1998]
+* Dynamic multi-causal model of L2 writing [@Matsuda1997]
+
+### 5.4 Japanese learners' discourse-pragmatic and stance choices
+* Hedging: informal modal verbs and reliance on lexical verbs/adverbs [@HollmannFujimotoKuroda2024; @GilquinPaquot2008; @Suzuki2024; @Pemberton2020]
+* Assertion and visibility: overuse of boosters, self-mentions, and initial *I think* [@Kobayashi2016; @McCrostie2008; @Miki2010; @Natsukari2012]
+* Discourse organization: sentence-initial connector overuse shared across L1s [@NaritaSatoSugiura2004]
+* Evaluation: packaging differences and limited modal interaction in online forums [@Kobayashi2016; @KamimuraOi1998; @Matsuoka2021]
+* Phraseology: restricted trigram repertoires in essay writing [@Ishikawa2021; @Kaneko2007]
+
+### 5.5 L1, proficiency, task, register and topic as competing explanations
+* Five competing explanations for learner-native phraseological differences:
+  * L1 influence [@Connor1996; @Kubota1998; @NaritaSatoSugiura2004]
+  * Proficiency constraints [@Ishikawa2021; @Suzuki2024; @Miki2010]
+  * Task and prompt conditions [@WayJoinerSeaman2000]
+  * Register mismatch and informality [@GilquinPaquot2008; @HollmannFujimotoKuroda2024]
+  * Topic and curriculum effects [@Pemberton2020; @YangLuWeigle2015]
+* Methodological role of multi-predictor modelling [@LarssonPaquotBiber2021; @Ishikawa2013; @Matsuda1997]
+
+### 5.6 Synthesis
+* Extensive empirical documentation vs. narrow register base [@GrangerEtAl2009; @Ishikawa2013; @Ishikawa2023; @IzumiEtAl2004; @Tono2007]
+* Nuanced view of L1 as one factor among many [@NaritaSatoSugiura2004; @Pemberton2020; @Miki2010; @Kobayashi2016; @Atkinson2004; @Kubota1997; @Kubota1999; @KubotaLehner2004; @Matsuda1997; @Matsuoka2021]
+
+## 6. Synthesis: From learner corpus research to learner stance in ONC
+
+### 6.1 What Chapter 1 established
+* ONC as a hybrid, evaluative written register [@EhretTaboada2021]
+* Gap in register-specific stance phraseology description
+
+### 6.2 What Chapter 2 has established: a chain of propositions
+1. Systematic detection of overuse/underuse via CIA [@Granger1996; @Granger1998book]
+2. Reference corpora as descriptive benchmarks [@Granger2015; @Gilquin2022]
+3. Register and task as major sources of learner variation [@GardnerNesiBiber2019; @LarssonPaquotBiber2021; @StaplesReppen2016; @GilquinPaquot2008]
+4. Stance differences located in epistemic calibration [@HylandMilton1997; @Adel2006; @AullLancaster2014]
+5. Phraseological manifestation in multi-word bundles [@ChenBaker2010; @ChenBaker2016; @AdelErman2012; @BiberBarbieri2007]
+6. Competing sources of variation in Japanese learner writing [@Miki2010; @NaritaSatoSugiura2004; @Pemberton2020]
+* Core conclusion: register as a constitutive condition of learner-native difference interpretation
+
+### 6.3 The double gap
+* Intersection of register gap (ONC stance phraseology) and learner gap (L2 stance in informal online registers) [@Ishikawa2013; @Ishikawa2023; @Tono2007]
+
+### 6.4 Methodological implications for Chapter 3
+* Six design requirements:
+  1. Register comparability [@LarssonPaquotBiber2021]
+  2. Task comparability [@Granger1996]
+  3. Learner comparability and proficiency documentation [@Miki2010; @Suzuki2024]
+  4. Benchmark reference population [@Granger2015; @Gilquin2022]
+  5. Multi-word phraseological analysis [@ChenBaker2010; @AdelErman2012]
+  6. Functional discourse interpretation [@HylandMilton1997; @ChenBaker2016; @ConnorMoreno2005]
+
+### 6.5 Handoff to Chapter 3
+* Synthesis of LCR, register research, and phraseological stance analysis
+* Overview of empirical design: six-cohort learner corpus, BBC reference benchmark, additive MDA, and stance bundle extraction
+
+## References
+
+::: {#refs}
+:::
