@@ -1,0 +1,15 @@
+{
+  "hash": "189e16fb3b7e01b8822ab91a2947de2a",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Methodology\n\n\n\n<!--\nCorpus description, MDA tagging pipeline (dtagger), and PPML modelling\n(fixest::feglm()) go here. R chunks in this and later chapters are\nexecuted when you render the book, and results are cached per the\n`execute: freeze: auto` setting in _quarto.yml.\n-->\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

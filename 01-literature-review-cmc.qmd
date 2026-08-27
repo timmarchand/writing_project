@@ -1,3 +1,225 @@
-# Literature Review
+# Chapter 2
 
-<!-- Evaluative language, learner corpora, MDA, CMC, etc. -->
+## Introduction: Online news comments as computer-mediated communication
+
+### Online news comments as a form of CMC: why study language below the line
+* Learner ONC analysis vs. early-2000s BBC *Have Your Say* reference corpus
+* CMC (socio-technical phenomenon) vs. CMD (linguistic production) distinction [@Herring1996; @Herring2001]
+* Situational niche: asynchronous, text-based, persistent, pseudonymous, moderated [@Herring2001; @Herring2007]
+* Scale and role as an alternative public "opinion pipeline" [@Santana2011]
+* Gap in register, genre, and stance descriptions in linguistics
+
+### Two research traditions: communication studies and linguistic approaches
+* Communication/journalism studies: participation, civility, moderation, deliberative quality [@HermidaThurman2008; @Thurman2008; @DomingoEtAl2008; @Santana2014; @Rowe2015; @StroudEtAl2015; @DiakopoulosNaaman2011; @Reader2012; @KsiazekSpringer2018]
+* Linguistic tradition: CMDA framework [@Herring2004a], impoliteness pragmatics [@NeurauterKessels2011; @RababahAlali2020], corpus-based discourse studies [@KehoeGee2019; @CollinsNerlich2015; @TrnavacTaboada2023]
+* Complementarity and historical lack of integration between traditions
+
+### From hybrid register to new variety: early spoken–written cline studies
+* Electronic language on the speech–writing continuum [@Baron1984]
+* Early multi-dimensional and corpus comparisons [@Biber1988; @FerraraBrunnerWhittemore1991; @CollotBelmore1996; @Yates1996b]
+* Internet language framed as a distinct variety [@Crystal2001; @Crystal2006]
+* Internal variation exceeding medium-wide generalizations
+
+### Herring's (2007) faceted classification: locating ONC
+* Rejection of monolithic "medium as genre" assumptions
+* Classification across technical medium facets and social facets [@Herring2007; @HerringAndroutsopoulos2015; @Rowe2015]
+* Profiling ONC situational parameters for register analysis
+* Framework for comparing learner classroom data with public reference data
+
+### Genre evolution: from letters to the editor to below-the-line comments
+* Structurational genre repertoires and cybergenre emergence [@YatesOrlikowski1992; @OrlikowskiYates1994; @CrowstonWilliams2000]
+* Weblogs and comments as bridging genres [@HerringEtAl2005; @GiltrowStein2009]
+* Letters to the editor as offline functional ancestor [@LandertJucker2011; @Landert2014; @McCluskeyHmielowski2012]
+* Requirement to control for sub-genre in corpus comparisons [@HerringPaolillo2006]
+
+### A short history of below-the-line commenting: the early-2000s ecology
+* Launch of BBC News Online (1997) and *Have Your Say* UGC hub (2005) [@Harrison2010; @WardleWilliams2010]
+* Emergence of UK and US commercial commenting platforms [@KehoeGee2019; @GrahamWright2015; @Santana2011; @HermidaThurman2008]
+* Early-2000s baseline as the initial era of normalized CMC [@Herring2004b]
+
+### Chapter roadmap
+* Section 2: Genre and register theoretical frameworks
+* Section 3: Four-way corpus methodology taxonomy
+* Section 4: Genre and register studies of CMC and ONC
+* Section 5: Stance and evaluation frameworks
+* Section 6: Methodological synthesis and links to subsequent chapters
+
+## Genre and register: theoretical foundations
+
+### Three traditions of genre theory
+* 1980s contextual reaction against formal text description [@Hyon1996]
+* Variable positioning of textual form vs. social context across schools
+
+#### The SFL tradition: register as field, tenor and mode; genre as staged, goal-oriented social process
+* Language as social semiotic [@Halliday1978]
+* Context of situation: field, tenor, and mode mapping to metafunctions [@HallidayHasan1989; @HallidayMatthiessen2004]
+* Sydney School model: genre stratified above register [@Martin1984; @Martin1992; @MartinRose2008]
+
+#### The ESP tradition: communicative purpose, move analysis and the complete text
+* Discourse communities and shared communicative purpose [@Swales1990]
+* Move and step analysis of whole texts [@Bhatia1993; @Bhatia2004]
+* Limitations of single communicative purpose in multi-party texts [@AskehaveSwales2001]
+
+#### The New Rhetoric tradition: genre as social action
+* Typified rhetorical action in recurring situations [@Miller1984]
+* Mutual constitution of genres and activity systems [@Bazerman1988; @Bazerman1994]
+* Socio-cognitive genre schemas and disciplinary power [@BerkenkotterHuckin1995]
+
+#### Convergences and tensions between the three traditions
+* Shared foundations: situated, recurring, purposeful communication [@Hyon1996]
+* Methodological divergences: semiotic stratification, move analysis, and ethnography [@Martin1992; @Swales1990; @BerkenkotterHuckin1995]
+* Incompatible definitions and scope of "register"
+
+### Register and genre in the text-linguistic tradition
+* Multi-Dimensional Analysis (MDA) and factor analysis of co-occurring features [@Biber1988]
+* External, situational definition of register vs. formal text types
+* Tripartite distinction: register, genre, and style perspectives [@BiberConrad2009; @BiberConrad2019]
+* Quantitative scaling to web-scale document populations [@BiberEgbert2018]
+
+### Genre and register in digital environments
+* Cybergenre evolution: replication, variant, and novel stages [@ShepherdWatters1998]
+* Pervasive genre hybridism and individualization online [@Santini2007; @AskehaveNielsen2005; @GiltrowStein2009]
+* Participatory news article as a composite digital genre [@Bruce2010; @LandertJucker2011]
+* ONC as a hybrid, argumentative-evaluative written register [@EhretTaboada2020; @EhretTaboada2021]
+
+## Corpus approaches to discourse: a framework for this chapter
+
+### Lee (2008): corpus-informed, corpus-supported, corpus-driven and corpus-induced approaches
+* Continuum of text preservation vs. abstraction [@Lee2008; @TogniniBonelli2001]
+* Corpus-informed: manual qualitative analysis of whole, structured texts
+* Corpus-supported: manual theory-driven coding combined with quantification [@BurnsMatarazzoAbbamonte2014]
+* Corpus-driven: automatic feature tagging and inductive quantification [@Biber1988; @Gerhardt2021]
+* Corpus-induced: fully automated bag-of-words processing and machine learning [@Santini2007; @SharoffWuMarkert2010]
+
+### Corpus design and representativeness
+* Domain representativeness vs. linguistic representativeness [@EgbertBiberGray2022]
+* Contrastive requirement: register features visible through reference comparisons [@Biber1988; @EgbertBiberDavies2015; @BiberEgbert2018]
+
+### Strengths and limits of the four approaches
+* Trade-offs between interpretive delicacy and sample scale
+* Methodological synergy in corpus-assisted discourse studies [@BakerEtAl2008; @LarssonPaquotPlonsky2020; @LarssonEgbertBiber2022]
+* Inductive power vs. theoretical assumptions in MDA [@BerberSardinhaVeiranoPinto2019]
+* Linguistic opacity and lack of interpretability in induced models [@SharoffWuMarkert2010; @EgbertLarssonBiber2020; @LarssonBiber2024; @Martin2017; @Sharoff2018]
+
+### The framework as organising device
+* Heuristic structure for reviewing CMC/ONC genre, register, and stance literature
+
+## Genre and register analysis of CMC and ONC
+
+### Corpus-informed approaches: qualitative genre analysis of news texts and comment spaces
+* Move analysis of the participatory news article ensemble [@Bruce2010]
+* Evolution of audience participation from print letters to online comments [@LandertJucker2011; @McCluskeyHmielowski2012]
+* Pragmatic repertoires of face-threatening acts online [@NeurauterKessels2011]
+* Limitations in domain representativeness [@EgbertBiberGray2022]
+
+### Corpus-supported approaches: purpose-built annotated comment corpora
+* SENSEI corpus: multi-stage manual annotation for conversation summarization [@BarkerEtAl2016; @BarkerGaizauskas2016]
+* YNACC: taxonomy coding for conversation quality (ERICs) [@NapolesEtAl2017]
+* SOCC: reliability-tested annotation of constructiveness and toxicity [@KolhatkarTaboada2017a, @KolhatkarTaboada2017b; @KolhatkarEtAl2020]
+* Manual Appraisal schemes on commercial social media [@BurnsMatarazzoAbbamonte2014]
+
+### Corpus-driven approaches: multidimensional and register analyses
+
+#### The early spoken–written cline revisited
+* Synchronous chat as interactive written discourse [@FerraraBrunnerWhittemore1991]
+* Corpus measures of early conferencing and email [@Yates1996b]
+* MD analysis of bulletin boards and hybridity models [@CollotBelmore1996; @Baron1998]
+
+#### MDA of CMC registers
+* Multi-dimensional scoring of IRC and ICQ chat [@Jonsson2015]
+* Exploratory MDA of web pages, blogs, and comments [@BiberKurjian2007; @GrieveEtAl2010; @TitakRoberson2013]
+* Additive vs. full MDA of Internet varieties [@BerberSardinha2014; @BerberSardinha2018]
+* Large-scale web registers (CORE) and micro-blogging styles [@BiberEgbert2016; @BiberEgbert2018; @ClarkeGrieve2017, @ClarkeGrieve2019; @FriginalWaughTitak2018]
+
+#### MDA and register analysis of ONC specifically
+* SOCC vs. ICE-Canada: ONC as an argumentative-evaluative written register [@EhretTaboada2020]
+* SOCC vs. CORE: position among online registers [@EhretTaboada2021]
+* Additive MDA of blog comments on Biber's 1988 dimensions [@Gerhardt2021]
+* Formulaicity and lexical bundles in BBC *Have Your Say* [@Marchand2013]
+* Semantic domains, keywords, and discourse prosody in comments [@CollinsNerlich2015; @Collins2019; @BakerMcGlashan2020]
+
+#### Full versus additive MDA
+* Dimensions extracted de novo vs. projection onto base models [@BerberSardinhaEtAl2019]
+* Suitability for emerging comment registers [@EhretTaboada2020, @EhretTaboada2021; @Gerhardt2021]
+* Dependence of register findings on comparison corpus composition [@EgbertBiberGray2022]
+
+### Corpus-induced approaches: automatic genre and register classification
+* Genre hybridity and individualization in web classification [@Santini2007; @MehlerSharoffSantini2010]
+* Reliability issues in expert web-genre annotation [@SharoffWuMarkert2010; @EgbertBiberDavies2015]
+* Functional Text Dimensions independent of topic [@Sharoff2018]
+* Neural register classification over open web data [@LaippalaEtAl2022]
+* High classification accuracy vs. linguistic opacity [@EgbertLarssonBiber2020; @LarssonEgbertBiber2022]
+
+### Section conclusion: register and genre revisited
+* Dual lens: macro-textual genre context vs. pervasive register features [@Bruce2010; @EhretTaboada2020]
+* Salience of evaluation across multiple methodological traditions [@CavassoTaboada2021]
+
+## Stance and evaluation in CMC and ONC
+
+### Stance, subjectivity, intersubjectivity, evaluation, appraisal: a terminological map
+* Stance as linguistic marking of attitude and epistemic status [@BiberFinegan1988; @GrayBiber2012]
+* Subjectivity and dialogic intersubjectivity [@DuBois2007; @DuBoisKarkkainen2012]
+* Evaluation as broad cover term in discourse [@Bednarek2006; @Hunston2011]
+* SFL Appraisal system taxonomy [@MartinWhite2005]
+* Metadiscourse and computational sentiment frameworks [@Hyland2005a; @PangLee2008]
+
+### Corpus-informed approaches: the Appraisal framework
+* Tripartite system: Attitude, Engagement, Graduation [@Martin2000; @White2003; @MartinWhite2005]
+* Attitude subtypes: Affect (emotion), Judgement (ethics/behavior), Appreciation (aesthetic/value)
+* Syntactic patterns associated with Attitude categories [@TaboadaGrieve2004]
+* Inscribed (explicit) vs. evoked (implicit) evaluation
+* Engagement: monoglossic vs. heteroglossic (expanding vs. contracting) [@White2003]
+* Graduation: Force (scaling) and Focus (prototypicality)
+* Cross-genre and CMC applications [@White1998; @CoffinOHalloran2006; @Martin1996; @Painter2003; @Love2006; @EgginsSlade1997; @Zappavigna2012]
+
+### Corpus-supported approaches: Appraisal with quantification and stancetaking
+* Quantified Appraisal analysis of SOCC comments [@CavassoTaboada2021]
+* Overwhelming prevalence of negative evaluation and preference for Judgement/Appreciation over Affect
+* Cross-linguistic Engagement patterns in news comments [@TrnavacTaboada2023]
+* Retrieval of stance and affect on social platforms [@BurnsMatarazzoAbbamonte2014]
+* Stance triangle: evaluation, positioning, alignment [@DuBois2007]
+* Interactional epistemic stance and networked positioning [@Karkkainen2003, @Karkkainen2006; @Englebretson2007; @Johnstone2007; @GiaxoglouJohansson2020; @Johansson2017]
+
+### Corpus-driven approaches: evaluation, semantic prosody, metadiscourse, grammatical stance, lexical bundles
+* Semantic prosody and evaluative collocation [@Louw1993; @Hunston2007]
+* Phraseology and local grammars of evaluation [@HunstonSinclair2000; @Hunston2011]
+* Inductive evaluation dimensions and community voices on RateMyProfessors [@MillarHunston2015]
+* Metadiscourse models of stance and engagement [@Hyland2005a, @Hyland2005b; @HylandTse2004]
+* Grammatical stance devices: adverbials, complement clauses, modals [@BiberEtAl1999; @Biber2006; @GrayBiber2012]
+* Stance bundles across spoken, academic, and blog registers [@BiberConradCortes2004; @BiberBarbieri2007; @Hyland2008; @Barbieri2018]
+* Bundle analysis of BBC *Have Your Say* and non-contiguous concgrams [@Marchand2013; @Greaves2009; @GreavesWarren2010]
+
+### Corpus-induced approaches: sentiment analysis of comments
+* Sentiment analysis tasks: polarity, subjectivity, aspect extraction [@PangLee2008; @Liu2012]
+* Lexicon-based methods with valence shifters: SO-CAL, NRC Emotion Lexicon [@TaboadaGrieve2004; @TaboadaEtAl2011; @MohammadTurney2013]
+* Machine learning scoring of informal digital texts: SentiStrength [@ThelwallEtAl2010]
+* Automated prediction of quality, constructiveness, and toxicity in ONC [@NapolesEtAl2017; @KolhatkarTaboada2017a; @KolhatkarEtAl2020]
+* Limitations: polarity scores without lexico-grammatical description [@LarssonEgbertBiber2022]
+
+### Section conclusion
+* Synthesis: ONC as an inherently evaluative, other-directed register [@CavassoTaboada2021; @DuBois2007]
+* Phraseological, community-specific realization of evaluative meaning [@Hunston2011; @MillarHunston2015; @Barbieri2018]
+* Operationalizing stance via recurrent phraseological bundles [@BiberEtAl1999; @Biber2006]
+
+## Conclusion: toward the present study
+
+### The argument of the chapter
+* Situational status: distinct CMD configuration derived from print letters [@Herring2007; @LandertJucker2011]
+* Register status: emerging written, argumentative-evaluative variety [@BiberConrad2009; @Lee2008; @EhretTaboada2020, @EhretTaboada2021; @Bruce2010; @Marchand2013; @Gerhardt2021]
+* Functional status: heavily negative, depersonalized evaluation for public alignment [@CavassoTaboada2021; @DuBois2007]
+
+### What the literature cannot explain: the double gap
+* Gap 1: Absence of a register-specific inventory of recurrent stance phraseology in ONC [@Bruce2010; @KolhatkarEtAl2020; @Barbieri2018; @Marchand2013]
+* Gap 2: Lack of empirical accounts regarding L2 learner production of ONC stance resources
+* Methodological requirement for representativeness and benchmark comparison [@BiberConrad2009; @EgbertBiberGray2022; @Harrison2010; @Herring2004b; @HerringPaolillo2006]
+
+### The design of the present study
+* Additive MDA on Biber's [-@Biber1988] dimensions for register comparison [@Gerhardt2021; @EhretTaboada2020, @EhretTaboada2021]
+* Automatic extraction and functional categorization of stance bundles [@BiberEtAl1999; @Biber2006; @Barbieri2018; @MillarHunston2015]
+* Methodological bridge between corpus-driven extraction and corpus-supported functional interpretation
+* Road ahead: Chapter 2 (LCR context) and Chapter 3 (Corpus methodology and design)
+
+## References
+
+::: {#refs}
+:::

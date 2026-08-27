@@ -1,5 +1,9 @@
 project:
   type: book
+  output-dir: _book
+  render:
+    - "*.qmd"
+    - "notes/*.qmd"
 
 book:
   title: "[Working title of your thesis]"
@@ -11,19 +15,25 @@ book:
     - 01-literature-review-cmc.qmd
     - 02-literature-review-lcr.qmd
     - 03-methodology.qmd
-    - 04-analysis.qmd
+    - 04-results.qmd
     - 05-discussion.qmd
-    - 06-conclusion.qmd
     - references.qmd
 
 bibliography: references.bib
 
 format:
-  typst:
+  html:
+    theme: cosmo
+  pdf:
+    pdf-engine: typst
     toc: true
     number-sections: true
-    fig-width: 6
-    fig-height: 4
+    papersize: a4
+    margin:
+      x: 2.5cm
+      y: 3cm
+    mainfont: "Linux Libertine"
+    fontsize: 11pt
 
 # Cache expensive computation (e.g. dtagger/PPML model fits) between
 # renders. Deliberately NOT gitignored below, so a fresh clone or your
