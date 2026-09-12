@@ -1,7 +1,7 @@
 # Chapter 2
 
 ## Introduction: Online news comments as computer-mediated communication
-
+Back reference to the introduction. 
 ### Online news comments as a form of CMC: why study language below the line
 * Learner ONC analysis vs. early-2000s BBC *Have Your Say* reference corpus
 * CMC (socio-technical phenomenon) vs. CMD (linguistic production) distinction [@Herring1996; @Herring2001]
