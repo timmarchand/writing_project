@@ -6,7 +6,7 @@ project:
     - "notes/*.qmd"
 
 book:
-  title: "[Working title of your thesis]"
+  title: "Evaluation Below the Line: A Register-Based Learner Corpus Study of Stance in Online News Comments"
   author: "Tim Marchand"
   date: today
   chapters:
